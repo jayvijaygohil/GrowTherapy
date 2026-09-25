@@ -1,0 +1,31 @@
+naming:
+  FunctionNaming:
+    active: true
+    ignoreAnnotated: ['Composable']
+
+style:
+  MagicNumber:
+    active: true
+    ignorePropertyDeclaration: true
+    ignoreAnnotation: true
+    ignoreEnums: true
+    ignoreNumbers: ['-1', '0', '1', '2']
+
+  MayBeConst:
+    active: true
+
+  UnusedPrivateMember:
+    active: true
+    ignoreAnnotated: ['Preview']
+
+complexity:
+  LongParameterList:
+    active: true
+    functionThreshold: 10
+    constructorThreshold: 10
+    ignoreAnnotated: ['Composable']
+
+  LongMethod:
+    active: true
+    threshold: 100
+    ignoreAnnotated: ['Composable']

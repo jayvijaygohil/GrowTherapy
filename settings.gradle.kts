@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Grow Therapy"
 include(":app")
- 
