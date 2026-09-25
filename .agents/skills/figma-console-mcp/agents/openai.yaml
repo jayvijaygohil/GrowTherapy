@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Console MCP"
+  short_description: "Choose and use Figma Console MCP design tools"
+  default_prompt: "Use $figma-console-mcp to inspect the target design and choose the right MCP tools for the requested work."
