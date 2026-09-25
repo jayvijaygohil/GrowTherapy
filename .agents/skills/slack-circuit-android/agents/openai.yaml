@@ -1,0 +1,3 @@
+interface:
+  display_name: "Slack Circuit for Android"
+  short_description: "Build Android Circuit screens with explicit factories"
