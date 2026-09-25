@@ -1,0 +1,14 @@
+interface:
+  display_name: Android Clean Architecture
+  short_description: Layer boundaries and data design for Android and KMP
+  default_prompt: Use $android-clean-architecture to review my layer boundaries and
+    implement a coherent repository contract.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
