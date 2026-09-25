@@ -1,0 +1,191 @@
+### Android & Gradle ###
+# Built application & package files
+*.apk
+*.ap_
+*.aab
+*.dex
+output.json
+gen-external-apklibs
+
+# Gradle build cache & outputs
+.gradle/
+.gradletasknamecache
+gradle-app.setting
+build/
+/build
+**/build/
+!src/**/build/
+/*/build/
+/*/*/build
+
+# Preserve Gradle Wrapper
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!/gradle/wrapper/gradle-wrapper.jar
+
+# Local machine & SDK configurations
+local.properties
+/*/local.properties
+
+# Android Studio & NDK generated builds
+captures/
+/captures
+.externalNativeBuild/
+.externalNativeBuild
+.cxx/
+.cxx
+bin/
+gen/
+obj/
+proguard/
+.navigation/
+cmake-build-*/
+
+# Keystores & sensitive credentials
+*.jks
+*.keystore
+.signing/
+google-services.json
+
+# Memory profiler & VM dumps
+*.hprof
+
+### IntelliJ & Android Studio ###
+# User-specific workspace and caches (explicit from custom rules)
+.idea/workspace.xml
+.idea/**/workspace.xml
+.idea/caches/
+/.idea/caches
+.idea/libraries/
+/.idea/libraries
+.idea/**/libraries
+.idea/modules.xml
+/.idea/modules.xml
+modules.xml
+.idea/navEditor.xml
+/.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+/.idea/assetWizardSettings.xml
+
+# Module files and project caches
+*.iml
+*.iws
+*.ipr
+/out/
+/*/out
+/*/*/production
+.idea_modules/
+.idea/$CACHE_FILE$
+.idea/httpRequests
+
+# Sensitive, volatile, and auto-generated settings
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/aws.xml
+.idea/**/contentModel.xml
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/gradle.xml
+.idea/**/misc.xml
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+.idea/.name
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/jarRepositories.xml
+
+# Plugin-specific ignores
+.idea/**/sonarlint/
+.idea/**/sonarIssues.xml
+.idea/**/markdown-navigator/
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/azureSettings.xml
+.idea/**/mongoSettings.xml
+.idea/codestream.xml
+.idea/replstate.xml
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Fallback: Ignore remaining non-shared IntelliJ files while keeping shared styles/runs
+.idea/*
+!.idea/codeStyles
+!.idea/runConfigurations
+
+### Kotlin & Java ###
+*.class
+*.ctxt
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Compressed package archives (excluding wrapper jar)
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
+*.zip
+*.jar
+
+### Legacy IDE Files (Eclipse) ###
+.project
+.classpath
+.cproject
+.settings/
+
+### OS & System Artifacts ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Editor swap and temporary files
+*~
+*.swp
+*.log
+
+.codex/
