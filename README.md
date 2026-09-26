@@ -5,8 +5,8 @@ A native Android UI conversion of the Grow Therapy iOS application, built using 
 
 This project showcases an AI-assisted Android engineering workflow demonstrating how modern AI
 coding agents, combined with local Model Context Protocol (MCP) servers, strict repository
-guardrails, and official Android developer tooling, can translate visual designs into close to ready
-production ready Native Android UI.
+guardrails, and official Android developer tooling, can translate visual designs into close to
+production-ready Native Android UI.
 
 ---
 
@@ -28,6 +28,36 @@ Engineering practices paired with modern AI capabilities:
 4. **Semantic Intelligence & Local Debugging**: Local MCP servers give the AI agent deep IDE
    semantic intelligence, runtime debugging capabilities, and CLI access for fast feedback loops
    without brute-force search overhead.
+
+---
+
+## 🎬 Demo & Design Showcase
+
+### 📱 Application Recordings
+
+#### ☀️ Light Mode
+
+<video src="https://github.com/user-attachments/assets/4673082d-e953-4393-9298-f8f322d94b8d" width="100%" controls></video>
+
+#### 🌙 Dark Mode
+
+<video src="https://github.com/user-attachments/assets/580c343c-4b6d-48ce-8408-e757a831253d" width="100%" controls></video>
+
+---
+
+### 🎨 Figma Design Evolution
+
+#### 1. Reference iOS App Store Screenshots
+
+![1. References](assets/figma_designs/1.%20References.png)
+
+#### 2. Tokenized Material 3 Design System
+
+![2. Design System](assets/figma_designs/2.%20Design%20System.png)
+
+#### 3. Native Android Screen Layouts
+
+![3. Android Screens](assets/figma_designs/3.%20Android%20Screens.png)
 
 ---
 
@@ -135,6 +165,9 @@ approach I'd take:
 GrowTherapy/
 ├── .agents/skills/              # Custom AI Agent Skills (Kotlin, Compose, Circuit, MCP)
 ├── AGENTS.md                    # Mandatory Agent Instructions & Skill Routing
+├── assets/                      # Media & Showcase Assets
+│   ├── figma_designs/           # Figma design exports (References, System, Screens)
+│   └── video/                   # Screen recording app flow video
 ├── config/detekt/               # Static code analysis configuration
 ├── gradle/libs.versions.toml    # Centralized Version Catalog
 └── app/src/main/java/com/jayvijay/growtherapy/
@@ -178,7 +211,7 @@ GrowTherapy/
    ./gradlew assembleDebug
    ```
 
-4. Run static code analysis:
+3. Run static code analysis:
    ```bash
    ./gradlew detekt
    ```
